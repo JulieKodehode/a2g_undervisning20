@@ -32,6 +32,19 @@ section {
   height: 100vh;
 }
 
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoApp {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
+
 /* FOOTER */
 footer {
   display: flex;
